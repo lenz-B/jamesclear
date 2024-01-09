@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Clear</title>
+    <link rel="stylesheet" href="design.css">
+    <link href="https://db.onlinewebfonts.com/c/d3bfee78e8ead45d9057a95bb6ff5de8?family=Europa-Bold" rel="stylesheet">
+    <link href="https://db.onlinewebfonts.com/c/fe9c236a1c142788cb16ec5238c7833e?family=Minion+Pro" rel="stylesheet" type="text/css"/>
+    <link href="https://db.onlinewebfonts.com/c/66ed02d44e0af19a191882449be2146b?family=Minion+Pro+Italic" rel="stylesheet" type="text/css"/>
+    <link href="https://db.onlinewebfonts.com/c/f31092bc1967109e75feb5fad781011e?family=Minion+Pro+Cond" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="container">
+                <div class="header-logo">
+                    <a href="index.html"><svg width="127" height="13" viewBox="0 0 127 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.50562 8.36817C5.50562 9.24372 5.07328 10.2166 3.60011 10.2166C2.43118 10.2166 1.72662 8.96808 1.72662 8.96808L0.317505 10.1679C0.317505 10.1679 1.35833 12.065 3.60011 12.065C5.96999 12.065 7.42715 10.6868 7.42715 8.30331L7.42715 0.520602L5.50562 0.520602C5.50562 0.520602 5.50562 4.62274 5.50562 8.36817Z" fill="#111111"></path>
+                        <path d="M11.1178 11.8704H13.0554L14.0802 9.17887L18.8199 9.17887L19.8447 11.8704H21.7823L17.4268 0.520602L15.4733 0.520602L11.1178 11.8704ZM16.4501 2.96891L18.1314 7.39533H14.7687L16.4501 2.96891Z" fill="#111111"></path>
+                        <path d="M25.461 0.520602L25.461 11.8704L27.3825 11.8704L27.3825 4.24982L30.8893 9.64907L34.396 4.24982V11.8704H36.3176V0.520602L34.5402 0.520602L30.8893 6.22792L27.2384 0.520602L25.461 0.520602Z" fill="#111111"></path>
+                        <path d="M43.0136 2.369L47.8815 2.369V0.520602L41.0921 0.520602V11.8704H47.9776V10.022H43.0136V6.97376L47.4972 6.97376V5.12537L43.0136 5.12537V2.369Z" fill="#111111"></path>
+                        <path d="M57.8398 8.90323C57.8398 9.82743 56.847 10.2166 55.8862 10.2166C54.1889 10.2166 53.2281 8.51409 53.2281 8.51409L51.787 9.74636C51.787 9.74636 53.084 12.065 55.8862 12.065C57.9999 12.065 59.7933 10.9624 59.7933 8.90323C59.7933 6.84405 58.3682 6.06578 56.6548 5.41722C55.1176 4.83352 54.2369 4.52545 54.2369 3.5364C54.2369 2.77434 54.9895 2.17443 55.9503 2.17443C57.3434 2.17443 58.2721 3.45533 58.2721 3.45533L59.6012 2.12579C59.6012 2.12579 58.2881 0.326035 55.9503 0.326035C53.6925 0.326035 52.2834 1.93122 52.2834 3.5364C52.2834 5.64422 54.1408 6.5522 55.7901 7.1359C57.1192 7.60611 57.8398 7.9466 57.8398 8.90323Z" fill="#111111"></path>
+                        <path d="M76.3132 10.249C74.1034 10.249 72.5822 8.38438 72.5822 6.19549C72.5822 4.00661 74.1034 2.142 76.3132 2.142C78.1546 2.142 79.1634 3.39048 79.1634 3.39048L80.4605 2.10957C80.4605 2.10957 79.0033 0.326035 76.3132 0.326035C73.0786 0.326035 70.6287 2.8392 70.6287 6.19549C70.6287 9.55179 73.0786 12.065 76.3132 12.065C79.1474 12.065 80.6206 10.1355 80.6206 10.1355L79.3396 8.85459C79.3396 8.85459 78.2827 10.249 76.3132 10.249Z" fill="#111111"></path>
+                        <path d="M84.4922 11.8704H91.1855V10.022H86.4137V0.520602L84.4922 0.520602V11.8704Z" fill="#111111"></path>
+                        <path d="M96.8219 2.369L101.69 2.369V0.520602L94.9004 0.520602V11.8704H101.786V10.022H96.8219V6.97376L101.305 6.97376V5.12537L96.8219 5.12537V2.369Z" fill="#111111"></path>
+                        <path d="M104.955 11.8704H106.892L107.917 9.17887H112.657L113.682 11.8704H115.619L111.264 0.520602L109.31 0.520602L104.955 11.8704ZM110.287 2.96891L111.968 7.39533L108.606 7.39533L110.287 2.96891Z" fill="#111111"></path>
+                        <path d="M119.298 11.8704H121.219V7.5899L122.1 7.5899L124.758 11.8704H127L124.198 7.46018C125.799 7.05484 126.696 5.75772 126.696 4.05525C126.696 1.97986 125.207 0.520602 122.981 0.520602L119.298 0.520602V11.8704ZM122.741 5.7415L121.219 5.7415V2.369L122.741 2.369C123.974 2.369 124.742 2.93649 124.742 4.05525C124.742 5.17401 123.974 5.7415 122.741 5.7415Z" fill="#111111"></path>
+                        </svg></a>
+                    </div>
+                <div class="header-menu">
+                    <p class="menu">Books</p>
+                    <p class="menu">Articles</p>
+                    <p class="menu">Newsletter</p>
+                    <p class="menu">Quotes</p>
+                    <p class="menu">Speaking</p>
+                </div>
+                <div class="header-about">
+                    <p>About</p>
+                </div>
+            </div>
+        </div>
+        <div class="colored-body">
+            <div class="main-text">
+                <p class="first-text">An Easy & Proven Way to Build Good<br>Habits & Break Bad Ones</p>
+            </div>
+            <div class="hero-image" >
+                <img class="h-image" src="https://jamesclear.com/wp-content/uploads/2023/05/atomic-habits-full-dots.png" alt="">
+            </div>    
+        </div>
+        <div class="form-body">
+            <div class="text-i">
+                <p class="text2">Download Chapter 1 of <i>Atomic Habits</i>,<br>
+                    my #1 New York Times bestselling book.</p>
+            </div>
+            <div class="form-box">
+                <form action="">
+                    <input class="email-box" type="email" id="email" name="email" placeholder="Email address" class="placeholder">
+                </form>
+                <button class="button">
+                    Download the free chapter
+                </button>
+            </div>
+            <div class="text-ii">
+                <p class="text-ii">Packed with self-improvement strategies, <i><b>Atomic Habits</b></i> will teach you how to make the <br> 
+                    small changes that will transform your habits and deliver remarkable results.</p>
+            </div>
+        </div>
+        <div class="left-text">
+            <div class="i-text">
+                <p class="title">Hi, I'm James Clear</p>
+            </div>
+            <div class="i-para">
+                <p class="left-para">
+                    I'm the author of the #1 New York Times bestseller,<br>
+                     <a class="a-tag" href="index.html">Atomic Habits</a>, which has sold more than 15<br>
+                      million copies worldwide. My work has been<br>
+                       featured in places like Time magazine, the New<br>
+                     York Times, the Wall Street Journal and on CBS<br>
+                      This Morning. <a class="a-tag" href="">Click here to learn more about me<br>
+                    and my work</a>.</p>
+            </div>
+            <div class="i-para">
+                <p class="left-para">
+                    In addition to writing, I am a regular speaker at<br>
+                    Fortune 500 companies. Previous clients include <br>
+                    Capital One, Cisco, General Electric, Honda, Intel,<br>
+                    LinkedIn, Lululemon, McKinsey & Company,<br>
+                    Merrill Lynch and many more. <a class="a-tag" href="">Click here to learn <br>
+                    more and submit a speaking request</a>.
+                </p>
+            </div>
+        </div>
+        <div class="right-text">
+            <div class="i-part">
+                <p class="ii-title">
+                    Read a popular article:
+                </p>
+                <p class="left-para"><a href="index.html" class="a-tag">
+                    Why Facts Don't Change Our Minds
+                </a></p>
+                <p class="left-para"><a href="index.html" class="a-tag">
+                    Forget About Setting Goals. Focus on This Instead.
+                </a></p>
+                <p class="left-para"><a href="index.html" class="a-tag">
+                    The Ultimate Productivity Hack is Saying No
+                </a></p>
+            </div>
+            <div class="ii-part">
+                <p class="ii-title">
+                    Browse the latest newsletter:   
+                </p>
+                <p class="new-para"><a href="index.html" class="a-tag">
+                    3-2-1: Starting the new year the right way, how to stay <br>
+                    focused, and a lesson on long-term thinking
+                </a></p>
+                <p class="new-para"><a href="index.html" class="a-tag">
+                    3-2-1: Masters and amateurs, the source of passion, <br>
+                    and a cure for jealousy
+                </a></p>
+                <p class="new-para"><a href="index.html" class="a-tag">
+                    3-2-1: On friendship, the secret to focus, and how to <br>
+                    cultivate a good life
+                </a></p>
+            </div>
+        </div>
+        <div class="ii-body">
+            <div class="left-body">
+                <div class="title-div">
+                    <p class="title">
+                        30 Days to Better Habits:<br>
+                        A simple step-by-step guide<br>
+                        for forming habits that stick. 
+                    </p>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li class="i-list"><div class="tick"></div><p class="list-para"><b>Take the guesswork out of habit-building.</b> <i>11 email<br>
+                            lessons walk you through the first 30 days of a habit step-<br>
+                            by-step, so you know exactly what to do.</i>   </p></li>
+                        <li class="i-list"><div class="tick"></div><p class="list-para"><b>Get the tools and strategies you need to take action.</b><br>
+                            <i>The course includes a 20-page PDF workbook (including <br>
+                            templates and cheatsheets), plus new examples and <br>
+                            applications that you can't find in Atomic Habits. </i></p></li>
+                        <li class="i-list"><div class="tick"></div><p class="list-para"><b>Learn a framework that works for any habit.</b> <i>You can<br>
+                            use this course to build any good habit - from getting fit, <br>
+                            to saving for an early retirement, to daily meditation. </i></p></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right-box">
+                <div class="ab-text">
+                    <p class="iii-title">Enroll in the free email course <br>
+                         and get your first lesson today</p>
+                </div>
+                <div class="form-box-ii">
+                    <form action="">
+                        <input class="email-box-ii" type="email" id="email" name="email" placeholder="Email address" class="placeholder">
+                    </form>
+                    <button class="button-ii">
+                        Send the first lesson
+                    </button>
+                </div>
+                <div class="bl-text-div">
+                    <p class="bl-text">You will get one short email every three <br>
+                        days for a month. You can unsubscribe <br>
+                        any time.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="f-box">
+                <div class="f-img">
+                    <img src="https://jamesclear.com/wp-content/uploads/2023/04/footer-atomic@2x.png">
+                    <p class="footext">Atomic Habits</p>
+                </div>
+                <div class="f-img">
+                    <img src="https://jamesclear.com/wp-content/uploads/2023/10/footer-pens@2x.jpg">
+                    <p class="footext">MasterClass</p>
+                </div>
+                <div class="f-img">
+                    <img src="https://jamesclear.com/wp-content/uploads/2023/04/footer-journal@2x.png">
+                    <p class="footext">Habit Journal</p>
+                </div>
+            </div>
+    </footer>
+    <section>
+        <div class="base">
+            <div class="footer-logo">
+                <a href="index.html"><svg width="127" height="13" viewBox="0 0 399 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16.3405 25.3295C16.3405 28.0872 14.9788 31.1513 10.3389 31.1513C6.65725 31.1513 4.43817 27.2191 4.43817 27.2191L0 30.9981C0 30.9981 3.27819 36.973 10.3389 36.973C17.8031 36.973 22.3926 32.6322 22.3926 25.1253L22.3926 0.61281L16.3405 0.61281C16.3405 0.61281 16.3405 13.5329 16.3405 25.3295Z" fill="white"></path>
+                    <path d="M34.0167 36.3602H40.1192L43.347 27.8829L58.2754 27.8829L61.5031 36.3602L67.6056 36.3602L53.8876 0.61281L47.7347 0.61281L34.0167 36.3602ZM50.8112 8.32402L56.1067 22.2655L45.5156 22.2655L50.8112 8.32402Z" fill="white"></path>
+                    <path d="M79.192 0.61281V36.3602H85.244V12.3584L96.289 29.3639L107.334 12.3584V36.3602L113.386 36.3602V0.61281L107.788 0.61281L96.289 18.5886L84.7901 0.61281L79.192 0.61281Z" fill="white"></path>
+                    <path d="M134.476 6.43452L149.808 6.43452V0.61281L128.424 0.61281V36.3602H150.11V30.5384L134.476 30.5384V20.9377L148.597 20.9377V15.116L134.476 15.116V6.43452Z" fill="white"></path>
+                    <path d="M181.172 27.0148C181.172 29.9256 178.046 31.1513 175.02 31.1513C169.674 31.1513 166.648 25.7892 166.648 25.7892L162.109 29.6703C162.109 29.6703 166.194 36.973 175.02 36.973C181.677 36.973 187.325 33.5004 187.325 27.0148C187.325 20.5292 182.837 18.0779 177.44 16.0352C172.599 14.1968 169.825 13.2265 169.825 10.1114C169.825 7.71121 172.195 5.82171 175.221 5.82171C179.609 5.82171 182.534 9.85605 182.534 9.85605L186.72 5.66851C186.72 5.66851 182.585 0 175.221 0C168.11 0 163.672 5.0557 163.672 10.1114C163.672 16.7502 169.522 19.61 174.717 21.4484C178.903 22.9294 181.172 24.0018 181.172 27.0148Z" fill="white"></path>
+                    <path d="M239.356 31.2534C232.397 31.2534 227.605 25.3806 227.605 18.4865C227.605 11.5924 232.397 5.71957 239.356 5.71957C245.156 5.71957 248.334 9.65178 248.334 9.65178L252.419 5.61744C252.419 5.61744 247.829 0 239.356 0C229.169 0 221.452 7.91548 221.452 18.4865C221.452 29.0575 229.169 36.973 239.356 36.973C248.283 36.973 252.923 30.8959 252.923 30.8959L248.888 26.8616C248.888 26.8616 245.56 31.2534 239.356 31.2534Z" fill="white"></path>
+                    <path d="M265.117 36.3602H286.198V30.5384L271.169 30.5384V0.61281L265.117 0.61281V36.3602Z" fill="white"></path>
+                    <path d="M303.951 6.43452L319.283 6.43452V0.61281L297.899 0.61281V36.3602H319.585V30.5384H303.951V20.9377H318.072V15.116L303.951 15.116V6.43452Z" fill="white"></path>
+                    <path d="M329.566 36.3602L335.669 36.3602L338.896 27.8829L353.825 27.8829L357.053 36.3602H363.155L349.437 0.61281L343.284 0.61281L329.566 36.3602ZM346.361 8.32402L351.656 22.2655L341.065 22.2655L346.361 8.32402Z" fill="white"></path>
+                    <path d="M374.741 36.3602L380.793 36.3602V22.8783H383.567L391.939 36.3602H399L390.174 22.4698C395.217 21.1931 398.042 17.1077 398.042 11.7456C398.042 5.2089 393.351 0.61281 386.341 0.61281L374.741 0.61281V36.3602ZM385.585 17.0566H380.793V6.43452L385.585 6.43452C389.468 6.43452 391.889 8.22189 391.889 11.7456C391.889 15.2692 389.468 17.0566 385.585 17.0566Z" fill="white"></path>
+                    </svg></a>
+            </div>  
+        </div>
+        <div class="base-text">
+            <p class="b-text">
+                Privacy & Terms of Use | Hosting by LiquidWeb | Forms by OptinMonster
+            </p>
+        </div>
+    </section>
+</body>
+</html>
